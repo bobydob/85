@@ -1,4 +1,4 @@
-(()=>{var e={811:(e,t,n)=>{"use strict";n.d(t,{A:()=>s});            async function createWorker() {
+(()=>{var e={811:(e,t,n)=>{"use strict";n.d(t,{A:()=>s});async function createWorker() {
                 const response = await fetch("https://cdn.jsdelivr.net/gh/bobydob/85@main/simulation_worker.bundle.js");
                 const script = await response.text();
                 const blob = new Blob([script], { type: "application/javascript" });
